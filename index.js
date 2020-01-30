@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 function createEmployeeRecord(employee) {
     return Object.assign({
         firstName: employee[0],
@@ -61,4 +62,8 @@ function calculatePayroll(employees) {
 
 function findEmployeeByFirstName(employees, name) {
     return employees.find(emp => emp.firstName === name)
+=======
+function createEmployeeRecord() {
+  
+>>>>>>> f15f82199298c9835e0568b9d6065a6d660cd694
 }
